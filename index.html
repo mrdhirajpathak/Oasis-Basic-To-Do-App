@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DP To-Do Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background decorations -->
+    <div class="background-orb orb-1"></div>
+    <div class="background-orb orb-2"></div>
+
+    <div class="app-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-top-header">
+                <div class="brand">
+                    <h2>DP To-Do</h2>
+                </div>
+                <button id="sidebarCollapseBtn" class="collapse-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#" class="nav-link active" data-view="dashboard">
+                    <i class="fa-solid fa-chart-pie"></i> <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-link" data-view="mytask">
+                    <i class="fa-solid fa-list-check"></i> <span>My Task</span>
+                </a>
+            </nav>
+
+            <div class="add-task-container">
+                <button id="sidebarAddBtn" class="add-btn-large">
+                    <i class="fa-solid fa-plus"></i> <span class="btn-text">New Task</span>
+                </button>
+            </div>
+            <!-- Bottom toggle removed -->
+        </aside>
+
+        <!-- Mobile Overlay -->
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="hamburger" id="hamburgerBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <h1 id="pageTitle">Dashboard</h1>
+                <div class="date-badge" id="currentDate"></div>
+            </header>
+
+            <!-- VIEW: DASHBOARD -->
+            <section id="dashboardView" class="view-section active">
+                <!-- Stats Row -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon icon-blue"><i class="fa-solid fa-list"></i></div>
+                        <div class="stat-info">
+                            <h3>Total</h3>
+                            <span id="statTotal">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon icon-green"><i class="fa-solid fa-check"></i></div>
+                        <div class="stat-info">
+                            <h3>Completed</h3>
+                            <span id="statCompleted">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon icon-yellow"><i class="fa-solid fa-spinner"></i></div>
+                        <div class="stat-info">
+                            <h3>In Progress</h3>
+                            <span id="statPending">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Active Tasks Preview -->
+                <div class="glass-panel">
+                    <div class="panel-header">
+                        <h2>Active To-Do List</h2>
+                        <a href="#" class="view-all-link" data-target="mytask">View All</a>
+                    </div>
+                    <ul id="dashboardTaskList" class="task-list">
+                        <!-- Injected JS -->
+                    </ul>
+                </div>
+            </section>
+
+            <!-- VIEW: MY TASK -->
+            <section id="mytaskView" class="view-section hidden">
+                <div class="tasks-grid">
+                    <!-- Pending Column -->
+                    <div class="glass-panel">
+                        <div class="panel-header">
+                            <h2>Pending Tasks <span id="countPending" class="badge">0</span></h2>
+                        </div>
+                        <ul id="fullPendingList" class="task-list">
+                            <!-- Injected JS -->
+                        </ul>
+                    </div>
+
+                    <!-- Completed Column -->
+                    <div class="glass-panel">
+                        <div class="panel-header">
+                            <h2>Completed <span id="countCompleted" class="badge">0</span></h2>
+                        </div>
+                        <ul id="fullCompletedList" class="task-list completed-list">
+                            <!-- Injected JS -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Edit/Add Modal -->
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Add Task</h3>
+            <input type="text" id="modalInput" placeholder="What needs to be done?" autocomplete="off">
+            <div class="modal-buttons">
+                <button id="modalCancel" class="btn-cancel">Cancel</button>
+                <button id="modalSave" class="btn-save">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
