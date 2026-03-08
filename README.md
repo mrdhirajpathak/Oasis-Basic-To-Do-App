@@ -1,4 +1,4 @@
-# 📝 To-Do List Web Application
+applicationrfacerface To-Do List Web Application
 
 A simple and interactive To-Do List web application built to help users manage their daily tasks efficiently.  
 This project was developed as part of the **Oasis Infobyte Internship Program** to demonstrate fundamental web development skills using HTML, CSS, and JavaScript.
@@ -28,7 +28,7 @@ The application provides a clean and intuitive interface where users can add, tr
 
 ## 📂 Project Structure
 todo-app/
-├── index.html # Main application interface
+├── index.html # Main Application UI
 ├── style.css # Styling and UI design ├── script.js # Application logic 
 └── README.md # Project documentation
 
