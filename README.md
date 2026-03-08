@@ -31,3 +31,8 @@ todo-app/
 ├── index.html # Main application interface
 ├── style.css # Styling and UI design ├── script.js # Application logic 
 └── README.md # Project documentation
+
+
+```
+git clone https://github.com/mrdhirajpathak/Oasis-Basic-To-Do-App.git
+```
