@@ -9,19 +9,6 @@ A simple and interactive **To-Do List Web Application** that helps users manage 
 This project was developed as part of the **Oasis Infobyte Internship Program** to demonstrate core web development skills.
 
 The application allows users to add, track, and remove tasks using a clean and minimal interface.
-
----
-
-# 🚀 Live Demo
-
-You can run the project locally using:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/Oasis-Basic-To-App.git
-```
-
-Open `index.html` in your browser.
-
 ---
 
 # ✨ Features
@@ -52,24 +39,6 @@ Oasis-Basic-To-App/
 ├── style.css
 ├── script.js
 └── README.md
-```
-
----
-
-# 📸 Project Preview
-
-Add a screenshot of your project here.
-
-Example:
-
-```
-/screenshots/app-preview.png
-```
-
-Then show it like this:
-
-```markdown
-![App Preview](screenshots/app-preview.png)
 ```
 
 ---
@@ -122,7 +91,7 @@ Possible future improvements:
 
 # 👨‍💻 Author
 
-**Dhiraj**
+**Dhiraj_Pathak**
 
 Computer Science Engineering Student  
 Interested in Programming, Web Development, and Software Projects.
