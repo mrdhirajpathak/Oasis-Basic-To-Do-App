@@ -27,7 +27,13 @@ The application provides a clean and intuitive interface where users can add, tr
 ---
 
 ## 📂 Project Structure
-Oasis-Basic-To-App/ ├── index.html    # Main Application UI ├── style.css     # Styling and UI design ├── script.js     # Application logic └── README.md     # Project documentation
+```
+Oasis-Basic-To-App/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
 ---
 
