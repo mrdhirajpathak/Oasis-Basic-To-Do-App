@@ -1,2 +1,33 @@
-# Oasis-Basic-To-Do-App
-A clean and beginner-friendly To-Do List application built to manage daily tasks efficiently. Users can add, update, mark complete, and delete tasks with a simple and interface. This project demonstrates core concepts of CRUD operations, logical flow, and basic UI design, making it ideal for learning and showcasing fundamental development skills.
+# 📝 To-Do List Web Application
+
+A simple and interactive To-Do List web application built to help users manage their daily tasks efficiently.  
+This project was developed as part of the **Oasis Infobyte Internship Program** to demonstrate fundamental web development skills using HTML, CSS, and JavaScript.
+
+The application provides a clean and intuitive interface where users can add, track, and remove tasks in real time.
+
+---
+
+## 🚀 Features
+
+- Add new tasks quickly and easily
+- Mark tasks as completed
+- Delete tasks from the list
+- Simple and user-friendly interface
+- Lightweight and fast performance
+- Responsive design for different screen sizes
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the application  
+- **CSS3** – Styling and layout design  
+- **JavaScript (Vanilla JS)** – Application logic and task management  
+
+---
+
+## 📂 Project Structure
+todo-app/
+├── index.html # Main application interface
+├── style.css # Styling and UI design ├── script.js # Application logic 
+└── README.md # Project documentation
