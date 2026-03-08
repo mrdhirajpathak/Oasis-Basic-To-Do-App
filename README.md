@@ -1,32 +1,51 @@
-applicationrfacerface To-Do List Web Application
+# 📝 Oasis Basic To-Do App
 
-A simple and interactive To-Do List web application built to help users manage their daily tasks efficiently.  
-This project was developed as part of the **Oasis Infobyte Internship Program** to demonstrate fundamental web development skills using HTML, CSS, and JavaScript.
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Project](https://img.shields.io/badge/Project-Oasis%20Infobyte-green)
 
-The application provides a clean and intuitive interface where users can add, track, and remove tasks in real time.
+A simple and interactive **To-Do List Web Application** that helps users manage their daily tasks efficiently.  
+This project was developed as part of the **Oasis Infobyte Internship Program** to demonstrate core web development skills.
 
----
-
-## 🚀 Features
-
-- Add new tasks quickly and easily
-- Mark tasks as completed
-- Delete tasks from the list
-- Simple and user-friendly interface
-- Lightweight and fast performance
-- Responsive design for different screen sizes
+The application allows users to add, track, and remove tasks using a clean and minimal interface.
 
 ---
 
-## 🛠️ Technologies Used
+# 🚀 Live Demo
 
-- **HTML5** – Structure of the application  
-- **CSS3** – Styling and layout design  
-- **JavaScript (Vanilla JS)** – Application logic and task management  
+You can run the project locally using:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Oasis-Basic-To-App.git
+```
+
+Open `index.html` in your browser.
 
 ---
 
-## 📂 Project Structure
+# ✨ Features
+
+✔ Add new tasks  
+✔ Delete tasks  
+✔ Simple and clean UI  
+✔ Fast and lightweight  
+✔ Beginner friendly project structure  
+
+---
+
+# 🛠 Tech Stack
+
+**Frontend**
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+---
+
+# 📂 Project Structure
+
 ```
 Oasis-Basic-To-App/
 ├── index.html
@@ -37,56 +56,79 @@ Oasis-Basic-To-App/
 
 ---
 
-## ⚙️ How to Run the Project
+# 📸 Project Preview
 
-1. Clone this repository
+Add a screenshot of your project here.
+
+Example:
 
 ```
-git clone https://github.com/mrdhirajpathak/Oasis-Basic-To-Do-App.git
+/screenshots/app-preview.png
 ```
-2. Navigate to the project folder
-```
-cd Oasis-Basic-To-Do-App
-```
-3. Open the **index.html** file in your browser.
 
-The application will run locally in your web browser.
+Then show it like this:
+
+```markdown
+![App Preview](screenshots/app-preview.png)
+```
 
 ---
 
-## 🎯 Learning Objectives
+# ⚙ How to Run the Project
 
-This project helped strengthen understanding of:
+1 Clone the repository
 
-- DOM manipulation in JavaScript
-- Event handling
-- Frontend UI design
-- Structuring small web applications
-- Using GitHub for project version control
+```bash
+git clone https://github.com/mrdhirajpathak/Oasis-Basic-To-App.git
+```
+
+2 Go to project folder
+
+```bash
+cd Oasis-Basic-To-App
+```
+
+3 Open the project
+
+```
+Open index.html in your browser
+```
 
 ---
 
-## 📌 Future Improvements
+# 🎯 Learning Objectives
 
-Possible enhancements for this project include:
+This project helped in understanding:
 
-- Local Storage support for saving tasks
-- Drag and drop task organization
-- Task editing functionality
+- DOM Manipulation
+- Event Handling in JavaScript
+- Basic UI Design
+- Web Project Structure
+- Using GitHub for project hosting
+
+---
+
+# 🔮 Future Improvements
+
+Possible future improvements:
+
+- Local Storage support
+- Task editing feature
 - Dark mode UI
-- Mobile-optimized design
+- Drag and drop task sorting
+- Mobile optimization
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Dhiraj**  
+**Dhiraj**
+
 Computer Science Engineering Student  
-Passionate about programming, software development, and building practical projects.
+Interested in Programming, Web Development, and Software Projects.
 
 ---
 
-## 📜 License
+# 📜 License
 
-This project is open-source and available for learning and educational purposes.
-
+This project is open source and available for learning purposes.
