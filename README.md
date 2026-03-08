@@ -32,7 +32,58 @@ todo-app/
 ├── style.css # Styling and UI design ├── script.js # Application logic 
 └── README.md # Project documentation
 
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone this repository
 
 ```
 git clone https://github.com/mrdhirajpathak/Oasis-Basic-To-Do-App.git
 ```
+2. Navigate to the project folder
+```
+cd Oasis-Basic-To-Do-App
+```
+3. Open the **index.html** file in your browser.
+
+The application will run locally in your web browser.
+
+---
+
+## 🎯 Learning Objectives
+
+This project helped strengthen understanding of:
+
+- DOM manipulation in JavaScript
+- Event handling
+- Frontend UI design
+- Structuring small web applications
+- Using GitHub for project version control
+
+---
+
+## 📌 Future Improvements
+
+Possible enhancements for this project include:
+
+- Local Storage support for saving tasks
+- Drag and drop task organization
+- Task editing functionality
+- Dark mode UI
+- Mobile-optimized design
+
+---
+
+## 👨‍💻 Author
+
+**Dhiraj**  
+Computer Science Engineering Student  
+Passionate about programming, software development, and building practical projects.
+
+---
+
+## 📜 License
+
+This project is open-source and available for learning and educational purposes.
+
